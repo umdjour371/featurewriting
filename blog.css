@@ -1,0 +1,113 @@
+.container {width: 100%; max-width: 1600px; margin: 0 auto; padding-left: 60px; padding-right: 60px;}
+
+@media only screen and (max-width: 600px) {
+    .headline, .container, .title {font-size: 20px; margin: 0 auto; width: 100%; padding-left: 0px; padding-right: 0px;}
+    .navbar, .col-sm-9, {margin: 0 auto; width: 100%; padding-right: 0px; border-right: 0px;}
+    .col-sm-9, {padding-right: 15px; border-bottom: 1px solid #e2e2e2; padding-bottom: 10px;}
+    .hero-container, #hero-image, .hero-slide, #header, #subhead, #photo1 {margin: 0 auto; width: 100%; height: 150;}
+    .byline, {font-size: 12px; margin: 0 auto; width: 100%;}
+    .hero-slide {padding-bottom: 20px;}
+    .hero-container {height: 38vh;}
+    #header {font-size: 20px; padding-bottom: 15px; padding-top: 5px;}
+    #subhead {font-size: 10px;}
+    .navbar, .caption, .navbar.navbar-expand-lg.navbar-dark.bg-inherit, .row, nav {margin: 0 auto; width: 100%;}
+    .photos, #photo1, #photo2, #photo3, #photo4 {margin: 0 auto; width: 100%; height: auto;}
+    a.nav-link, li.nav-item {display: none;}
+    a.navbar-title {font-size: 10px;}
+    button.menu-bars {margin-left: 0px; display: inline-block;}
+    button.contact {margin-left: auto; margin-right: 15px;}
+    #story1, #story2 {border-bottom: 1px solid #e2e2e2;}
+    .hero-image {width: 100%; margin: 0 auto; padding-left: 15px; padding-right: 15px;}
+    .title {font-size: 28px; margin-top: 25px;}}
+
+@media only screen and (min-width: 667px) {button.menu-bars {display: none;}}
+@media only screen and (max-width: 667px) {a#fall-19.nav-link {display: none;}}
+@media only screen and (min-width: 705px) {#header {font-size: 2.5em; padding-bottom: 20px; letter-spacing: 2px;}
+#subhead {font-size: .7em; padding-bottom: 10px; width: 90%; max-width: 1100px;}}
+@media only screen and (max-width: 705px;) {#header {font-size: 20px; padding-bottom: 15px; padding-top: 5px;}
+    #subhead {font-size: 10px;}}
+
+@media only screen and (min-width: 600px) {
+  .headline {font-size: 26px;}
+  .hero-slide {padding-bottom: 1rem; padding-top: 4rem; min-height: 35%;}
+  .hero-container {height: 100vh;}
+  a.nav-link, li.nav-item {display: inline;}
+  a.navbar-title {margin: 0 auto; font-size: 1em;}
+  .title {font-size: 48px; padding-top: 45px;}}
+
+html {scroll-behavior: smooth;}
+a:hover {text-decoration: underline; color: black;}
+a {color: black;}
+a.nav-link, a.nav-button {color: black; font-weight: 700; font-family: 'Noto Sans', 'Helvetica', sans-serif; font-size: 1em;}
+a.nav-button {transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;}
+a.nav-link:hover, a.navbar-title:hover {text-decoration: underline;}
+a.navbar-title {display: inline-block; border-radius: 3px; text-align: center; color: black; font-family: 'Noto Sans', 'Helvetica', sans-serif; font-weight: 700;}
+li.nav-title {margin: 0 auto; list-style-type: none;}
+button.menu-bars {background-color: inherit; width: 40px; color: white; border: none; position: absolute;}
+button.menu-bars:hover {border: 1px solid black; border-radius: 3px;}
+i.fas.fa-bars {background color: #d4d4d4; border-radius: 3px;}
+
+#sidebar {position: fixed;
+width: 200px;
+height: 100%;
+background: #151719;
+Left: -200px;
+transition: all 500ms linear;}
+#sidebar.active {left: 0px;}
+#sidebar.li {color: white;
+list-style: none;
+padding: 15px 10px;
+border-bottom: 1px solid rgba(100, 100, 100, 0.3);}
+
+.title {font-family: 'Open Sans','Helvetica', arial, sans-serif; font-weight: 700; color: black; line-height: 48px; margin-bottom: 15px; text-align: center;}
+
+p {text-align:left; line-height:180%; font-family: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif; font-size: 15px;}
+
+.nav-link, li.nav-item {font-size: 1em; color: white; font-family: 'Helvetica', sans-serif; list-style: none;}
+.navbar {font-family: 'Noto Sans', 'Helvetica', 'Montserrat', sans-serif; background-color: white; width: 100%; border-bottom: 1px solid #bfbfbf; position: fixed; z-index: 10;}
+.hero-container {display: block; margin: 0 auto; position: relative; width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden; height: auto;}
+#hero-image {margin: 0 auto; z-index: -1; position: relative; background-size: cover;}
+.hero-slide {font-weight: 600; text-align: center; color: white; background: rgba(0, 0, 0, 0.5); font-size: 2em; position: absolute; top: 250px; margin: 0 auto; width: 100%; overflow: hidden;}
+#header {font-family: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif; text-decoration: underline;}
+#subhead {font-family: 'Noto Sans', 'Helvetica', 'Montserrat', sans-serif; margin: 0 auto; font-weight: 200;}
+div.fa-link::before {display: none;}
+.fa-link {vertical-align: top; scroll-behavior: smooth;}
+a#arrow {scroll-behavior: smooth; transition: .5s;}
+a#arrow:hover {font-size: 150%;}
+i.fas.fa-chevron-circle-down::before {color: red; scroll-behavior: smooth; transition: .5s;}
+.hero-caption {font-weight: 500; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179); font-size: 14px; padding-top: 10px; text-align: center;}
+p.first-letter  {font-size: 36px; background: red; color: white; line-height: .8; margin-top: .1em; margin-left: -.05em; margin-right: .05em; margin-bottom: 0px; font-weight: 400; padding: 5px 10px 5px 10px; width: 50px; display: inline-flex;}
+p.first-line {text-transform: uppercase; font-weight: bold; display: inline; margin-bottom: 0px;}
+p#first-graph {display: inline-flex; font-family: 'Libre Baskerville', 'Georgia', 'Times New Roman', serif;}
+
+.headline {font-family: 'Open Sans','Helvetica', arial, sans-serif; font-weight: 200; color: black; text-align: left; margin: 0 auto; padding-bottom: 5px; padding-top: 5px;}
+.byline {font-size: 10px; font-weight: 500; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; color: rgb(179, 179, 179); margin: 0 auto; padding-bottom: 10px;}
+
+.col-sm-9 {display: inline-block; margin: 0 auto; min-width: 200px;}
+#post1 {margin-top: 40px;}
+.posts {border-bottom: 1px solid #696867; padding-bottom: 10px;}
+#post10 {margin-bottom: 40px;}
+
+#photo1, #photo2, #photo3, #photo4, #photo5 {width: 100%;}
+.photos {text-align: right; margin: 0 auto; margin-top: 30px; display: inline-block;}
+.hero-image {width: 100%; margin: 0 auto; margin-top: 30px; display: inline-block;}
+.caption {font-size: 10px; font-weight: 500; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; margin: 0 auto; color: rgb(179, 179, 179); text-align: left;}
+.summary {margin-bottom: 5px;}
+
+.pagination {display: inline-block;}
+
+.pagination a {color: black; float: left; padding: 8px 16px; text-decoration: none; font-family: 'Open Sans', 'Helvetica', arial, sans-serif; font-size: 16px;}
+.pagination a:hover {border: 1px solid black; border-radius: 3px;}
+
+#footer {width: 100%;
+margin: 0 auto;
+background-color: black;
+height: 85px;
+font-size: 12px;
+color: white;
+font-family: 'Helvetica', 'Arial', sans-serif;
+display: block;
+margin-top: 30px;
+text-align: center;}
+
+a#home-link {color: white;}

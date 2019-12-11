@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,
+initial-scale=1, shrink-to-fit=no">
+
+<title>Style - The New York Times</title>
+<meta name="description" content="JOUR 689F Group Feature Assignment">
+
+<!-- JQuery Script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!--Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|PT+Serif:400,400i,700" rel="stylesheet">
+<!-- Load c3.css -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+   <!-- Load our CSS -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Load d3.js and c3.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+<!--Tab icon-->
+   <link rel="shortcut icon" href="top_icon.png" type="image/x-icon">
+   <link rel="icon" href="top_icon.jpg" type="image/x-icon">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-inherit">
+    <button class="menu-bars" data-toggle="collapse" data-target="sections"><i class="fas fa-bars"></i></button>
+    <button class="search"><i class="fas fa-search"></i></button>
+ <li class="nav-item">
+  <a class="nav-link" href="https://www.nytimes.com/section/style">STYLE</a>
+ </li>
+ <li class="nav-title">
+ <a class="navbar-title" href="https://www.nytimes.com/"><img src="style-title.jpg" height= 40 margin: 0 auto;></a>
+</li>
+ <a href="https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignId%3D7QQFH%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252Fsection%252Fstyle"><button class="login">LOG IN</button></a>
+</nav>
+
+<div class="container">
+  <div class="header">
+  <div class="title">Style</div>
+  <p class="subtitle">Write it, regret it.</p>
+  <li class="header-item">
+    <a id="header1" href="https://www.nytimes.com/section/fashion">FASHION |</a>
+  </li>
+  <li class="header-item">
+    <a id="header2" href="https://www.nytimes.com/section/style/love">LOVE |</a>
+  </li>
+  <li class="header-item">
+    <a id="header3" href="https://www.nytimes.com/section/style/self-care">SELF-CARE</a>
+  </li>
+  </div>
+
+  <div class="content">
+    <div class="row">
+    <div class="col-sm-6"><div id="story1">
+    <div id="photo1"><a href= "https://halas92.github.io/JOUR-689F-Designs/college-park.html"><img src="city-council.jpg" width=100% div class="photos"></a>
+    <p class="caption">Residents of College Park, Md. attend a city council meeting Sept. 24, where the city passed an ordinance that would fine student gatherings with alcohol. (Lauren DeMarco/FOX 5 DC)</p></div>
+    <div class="headline"><a href="https://halas92.github.io/JOUR-689F-Designs/college-park.html">“You Gotta Fight for Your Right to Party:” Students Bemoan City Drinking Ordinance</a></div>
+    <p class="summary">Students at the University of Maryland say they were excluded from their city's legislative process as the city council passed an ordinance targeting their parties.</p>
+  <p class ="byline">October 21, 2019 &bull; By JENNIFER MANDATO</p>
+</div></div>
+<div class="col-sm-3"><div id="story2">
+  <div id="photo2"><a href= "https://halas92.github.io/JOUR-689F-Designs/conservatives.html"><img src="republicans.jpg" width=100% div class="photos"></a>
+  <p class="caption">Students at the University of California-Berkeley hold cardboard signs during a press conference held by the Berkeley College Republicans in Berkeley, Calif., on Wednesday, April 26, 2017. (Dan Honda/AP)</p></div>
+  <div class="headline"><a href="https://halas92.github.io/JOUR-689F-Designs/conservatives.html">On Liberal Campuses, Conservative Students Struggle for Voice</a></div>
+  <p class="summary">Conservative student Talia Shemony says she feels her political opinions are stifled and contribute to a hard time making friends on the University of Maryland's campus.</p>
+<p class ="byline">October 21, 2019 &bull; By ANASTASIA MARKS</p>
+</div></div>
+<div class="col-sm-3"><div id="story3">
+  <div id="photo3"><a href= "https://halas92.github.io/JOUR-689F-Designs/uber.html"><img src="uber-passengers.jpg" width=100% div class="photos"></a>
+  <p class="caption">Passengers sit in the backseat of an Uber in Los Angeles. (Arthur Hickman/VICE)</p></div>
+  <div class="headline"><a href="https://halas92.github.io/JOUR-689F-Designs/uber.html">Harrassment by Uber Drivers Remains Issue</a></div>
+  <p class="summary">Despite harrassment complaints from female passengers, Uber allows some drivers to keep working.</p>
+  <p class ="byline">October 21, 2019 &bull; By VICTORIA EBNER</p>
+</div></div></div>
+<div class="row">
+  <div class="col-sm-6"><div id="story4">
+  <div id="photo4"><a href= "https://halas92.github.io/JOUR-689F-Designs/hair.html"><img src="studioa.jpg" width=100% div class="photos"></a>
+  <p class="caption">Shanita Byrd, owner of Studio A, learned to work with all hair textures when she was starting out. She never had to turn someone away when they were looking for a haircut. (Megan Sayles/The New York Times)</p></div>
+  <div class="headline"><a href="https://halas92.github.io/JOUR-689F-Designs/hair.html">A Maryland Hairdresser's Skeptical Take on Natural Hair Discrimination Laws</a></div>
+  <p class="summary">“If you choose to wear your hair in its natural state, it shouldn’t be a movement. It should just be what it is,” said hairdresser Shanita Byrd.</p>
+<p class ="byline">October 21, 2019 &bull; By MEGAN SAYLES</p>
+</div></div>
+  <div class="col-sm-6"><div id="story5">
+  <div id="photo5"><a href= "https://halas92.github.io/JOUR-689F-Designs/scotus.html"><img src="newscotus10-16.jpg" width=100% div class="photos"></a>
+  <p class="caption">Crowds wait in line Wednesday, Oct. 16 to hear oral arguments outside the U.S. Supreme Court in Washington. (Horus Alas/The New York Times)</p></div>
+  <div class="headline"><a href="https://halas92.github.io/JOUR-689F-Designs/scotus.html">At the Supreme Court, Justice Meets Inertia</a></div>
+  <p class="summary">Justices were indecisive on how to apply a Supreme Court precedent prohibiting juvenile life sentences without parole in the case of “D.C sniper” Lee Boyd Malvo.</p>
+<p class ="byline">October 21, 2019 &bull; By HORUS ALAS</p></div></div>
+</div></div>
+</div>
+
+<div id=footer><div id="ftext"><br>Created by Horus Alas for JOUR 689F: Feature Writing<br><br>
+  Copyright 2019 Horus Alas</div></div>
+
+</div><!--end container>
+
+</body>
+</html>
